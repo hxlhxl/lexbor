@@ -29,5 +29,6 @@ void *
 lexbor_free(void *dst)
 {
     free(dst);
+    dst = NULL;
     return NULL;
 }
